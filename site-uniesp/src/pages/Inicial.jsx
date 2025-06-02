@@ -6,7 +6,9 @@ const Inicial = () => {
   return (
     <Container className="py-4">
      
-     <BannerAd />  {/* AQUI ESTÁ O CAROUSEL DO BANNER */} 
+     <BannerAd />  
+     
+     {/* AQUI ESTÁ O CAROUSEL DO BANNER */} 
 
      <Card className="mb-4 shadow-sm"> 
 
