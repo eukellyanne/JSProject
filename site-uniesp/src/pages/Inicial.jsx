@@ -148,7 +148,6 @@ const Inicial = () => {
 
           </Card>
         
-
         </Col>
 
     </Row>
