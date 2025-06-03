@@ -14,7 +14,6 @@ const Noticias = () => {
             .catch(error => console.error("Erro ao carregar a lista de noticias: ", error))
     }, [])
 
-
     return (
         <Container className='py-4'>
             <h2 className='mb-4'>Notícias</h2>
@@ -28,7 +27,7 @@ const Noticias = () => {
                             <Card className="h-100 shadow-sm">
                                 <CardImg
                                     variant='top'
-                                    src="https://images.unsplash.com/photo-1652974731232-efc86a9bd985"
+                                    src={noticia.img}
                                     alt='Imagem da Noticia'
                                     style={{ objectFit:'cover', height:'140px'}}/>
                                 <Card.Body>
